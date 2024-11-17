@@ -1,0 +1,76 @@
+.registrar-usuario-container {
+  max-width: 400px; /* Tamaño máximo del card */
+  margin: 0 auto; /* Centra horizontalmente */
+  margin-top: 50px; /* Espacio superior */
+  padding: 30px; /* Espacio interno */
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Bordes redondeados más suaves */
+  background-color: #ffffff; /* Fondo blanco */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más prominente */
+}
+
+.registrar-usuario-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.registrar-usuario-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registrar-usuario-container form input,
+.registrar-usuario-container form button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.registrar-usuario-container form input {
+  font-size: 16px;
+}
+
+.registrar-usuario-container form input[type="date"] {
+  font-size: 16px;
+}
+
+.registrar-usuario-container form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.registrar-usuario-container form button:hover {
+  background-color: #0056b3;
+}
+
+.registrar-usuario-container form button:last-child {
+  background-color: #6c757d;
+}
+
+.registrar-usuario-container form button:last-child:hover {
+  background-color: #5a6268;
+}
+
+.error {
+  border-color: #dc3545;
+  background-color: #f8d7da;
+}
+
+::placeholder {
+  color: #aaa; /* Placeholder más suave */
+}
+
+body {
+  background-color: #f1f1f1; /* Fondo general más claro */
+  font-family: Arial, sans-serif; /* Fuente estándar */
+}
